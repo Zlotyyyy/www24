@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+
+}
+
+div {
+    width: 100%;
+    outline: solid 3px blue;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+h1 {
+    text-align:center;
+    text-shadow: 0 0 3px black;
+    font-size:25px;
+}
+
+img {
+    float:left;
+}
+
+table {
+    width:100%;
+    height:30vh;
+}
+
+.menuPH {
+    height:10vh;
+    background-color:rgba(100,100,255);
+}
+
+.menu {
+    position:fixed;
+    background-color:rgba(100,100,255,0.5);
+    height:10vh;
+    top:0;
+}
+
+.div1 {
+    width:100%;
+    height:10vh;
+    background-color:red
+}
+.div2 {
+    width:100%;
+    height:80vh;
+    background-image: url(tapeta.jpg);
+    background-attachment: fixed;
+    color:limegreen;
+}
+.div3 {
+    width:100%;
+    height:10vh;
+    background-color:green;
+}
+.div4 {
+    width:100%;
+    height:80vh;
+    background-image: url(tapeta.jpg);
+    background-attachment: fixed;
+    color:limegreen;
+}
+.div5 {
+    width:100%;
+    height:10vh;
+    background-color:purple;
+    display:flex;
+}
+.div6 {
+    width:100%;
+    height:80vh;
+    background-image: url(tapeta.jpg);
+    background-attachment: fixed;
+    color:limegreen;
+    display:flex;
+}
+
+.div6 div {
+    display:block;
+    outline:none;
+}
+.div7 {
+    width:100%;
+    height:30vh;
+    background-color:black;
+    color:white;
+}
+
